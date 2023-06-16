@@ -1,0 +1,20 @@
+.button-inc{
+    background-color: green;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-dec{
+    background-color: rgb(151, 55, 55);
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.count{
+    font-weight: bold;
+    font-size: 24px;
+    color: rgb(225, 216, 57);
+}

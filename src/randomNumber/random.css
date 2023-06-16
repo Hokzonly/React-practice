@@ -1,0 +1,20 @@
+.button-random{
+    padding: 10px, 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #747e54;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text-random{
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(225, 216, 57);
+}
+.div{
+    text-align:center;
+}

@@ -1,23 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Mycomp from './Lists';
+import RandomNumberGen from './randomNumber/Random';
+import Timer from './Timer';
+import UseEff from './Counter/UseEff'
+import DataFetcher from './fetch/ApiFetch';
+import TodoList from './todoList/TodoList';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='page'>
+       <UseEff/>
+       <Mycomp/>
+       <Timer/>
+       <RandomNumberGen/>
+       <DataFetcher/>
+       <TodoList/>
     </div>
   );
 }
